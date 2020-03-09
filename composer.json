@@ -20,5 +20,10 @@
         "psr-4": {
             "http23\\MailRu\\": "/src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "http23\\MailRu\\": "/src"
+        }
     }
 }
