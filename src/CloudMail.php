@@ -1,11 +1,10 @@
 <?php
 
-namespace http\MailRu;
+namespace http23\MailRu;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\CookieJar;
 use GuzzleHttp\Exception\GuzzleException;
-use http23\MailRu\AuthTrait;
 use SplFileObject;
 
 /**

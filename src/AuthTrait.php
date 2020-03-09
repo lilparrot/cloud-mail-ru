@@ -3,7 +3,6 @@
 namespace http23\MailRu;
 
 use GuzzleHttp\Exception\GuzzleException;
-use http\MailRu\CloudMail;
 
 /**
  * Trait AuthTrait
