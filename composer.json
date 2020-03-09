@@ -1,0 +1,24 @@
+{
+    "name": "http23/cloud-mail-ru",
+    "description": "Package for working with your files in cloud mail.ru",
+    "type": "library",
+    "require": {
+        "php":      ">=7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.0@dev"
+    },
+    "authors": [
+        {
+            "name": "Igor Voronin",
+            "email": "voronin.gosha@bk.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "http23\\MailRu\\": "/src"
+        }
+    }
+}
